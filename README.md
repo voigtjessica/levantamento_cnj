@@ -7,6 +7,12 @@ Esse repositório contem uma pasta "interna" com a reprodução dos códigos uti
 * **info_obras_proinfancia.csv:** contém informações sobre todas as obras de construção de escolas e creches pactuadas pelo PROINFÂNCIA. A tabela contém tanto informações oficiais, disponibilizadas pelo ente executor da obra no SIMEC, quanto informações geradas pela Transparência Brasil (ver mais no codebook abaixo);
 * **info_respostas_alertas.csv:** contém informações sobre respostas fornecidas pelo poder público aos alertas enviados pela Transparência Brasil.
 
+
+### Diferença entre informação oficial e análise da Transparência Brasil:
+
+De acordo com o [relatório que a nossa organização publicou sobre as obras do próinfância em 2017](https://www.transparencia.org.br/downloads/publicacoes/RelatorioTadePe23082017.pdf) foi verificado que o SIMEC guarda apenas a informação mais recente sobre o contrato da obra, omitindo informações de contratos anteriores. Dessa forma, uma obra que foi iniciada, possui percentual de execução, foi paralisada e aguarda nova licitação, consta no SIMEC com o status "Em Licitação" e não com o status "Paralisada" . 
+Sendo assim, a Transparência Brasil busca apontar essas distorçoes, o que nas tabelas se traduz na coluna "situacao_segundo_tbrasil".
+
 -----
 
 # Codebooks
@@ -21,7 +27,7 @@ Esse repositório contem uma pasta "interna" com a reprodução dos códigos uti
 |uf| Unidade federativa onde se encontra a obra|
 |responsabilidade| Ente responsável pela licitação e execução da obra|
 |status_segundo_simec| Status da obra em 24/04/2019, de acordo com o SIMEC|
-|situacao_segundo_tbrasil| Status da obra, de acordo com a checagem da Transparência Brasil|
+|situacao_segundo_tbrasil| Status da obra, de acordo com a checagem da Transparência Brasil.|
 |logradouro|Logradouro da obra, de acordo com as informações do FNDE |         
 |percentual_de_execucao| percentual de execução da obra em 24/04/2019, de acordo com o SIMEC|
 |ano_convenio| Ano em que foi estabelecido o convênio entre o ente executor e o FNDE|
