@@ -37,3 +37,18 @@ Esse repositório contem uma pasta "interna" com a reprodução dos códigos uti
 |tipo_do_projeto| Tipo arquitetônico do projeto, segundo SIMEC|                
 |possui_alerta| Se foi feito pelo menos um alerta para essa obra pelo projeto Tá de Pé|
 |possui_resposta| Se recebemos do governo ao menos uma resposta para o projeto Tá de Pé|  
+
+### 2.info_respostas_alertas
+
+|Variável|Descrição|
+|:----:|:---|
+|project_id| Id do projeto, de acordo com o FNDE |
+|status_segundo_simec| Status da obra em 24/04/2019, de acordo com o SIMEC|
+|situacao_segundo_tbrasil| Status da obra, de acordo com a checagem da Transparência Brasil|
+|inspection_id| Id do alerta que foi respondido, para controle interno da Transparência Brasil|
+|inspection_date| Data em que foi criado o alerta que foi respondido|
+|responsavel| Ente federativo ou orgão que forneceu a resposta ao alerta|
+|municipio| Município onde se localiza a obra |
+|uf| Unidade federativa onde se localiza a obra|
+|content| Conteúdo da resposta fornecida à Transparência Brasil|                
+|answer_date| Data da resposta do alerta|
